@@ -74,13 +74,13 @@
           <mxGeometry x="730" y="460" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KREq8-2agoi1I6AGwySA-98" value="Ulepsz wieże" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="30" y="690" width="80" height="80" as="geometry" />
+          <mxGeometry x="90" y="690" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KREq8-2agoi1I6AGwySA-99" value="Sprzedaj wieże" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="140" y="690" width="80" height="80" as="geometry" />
+          <mxGeometry x="210" y="690" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KREq8-2agoi1I6AGwySA-100" value="Wyjście do menu" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="260" y="690" width="80" height="80" as="geometry" />
+          <mxGeometry x="330" y="690" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
