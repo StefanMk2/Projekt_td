@@ -13358,7 +13358,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1632724845}
-  - component: {fileID: 1632724844}
+  - component: {fileID: 1632724846}
   m_Layer: 0
   m_Name: Mistrz gry
   m_TagString: Untagged
@@ -13366,21 +13366,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1632724844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1632724843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebc55e486fd360e41ae53c49c014de51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 576845712027681768, guid: ce83e3e7956dd624aa9f43962b9316d7, type: 3}
-  spawnPoint: {fileID: 746476410}
-  timeBetweenWaves: 5
 --- !u!4 &1632724845
 Transform:
   m_ObjectHideFlags: 0
@@ -13396,6 +13381,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1632724846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632724843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d364707fb3ee01743a68540565ff0b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 576845712027681768, guid: ce83e3e7956dd624aa9f43962b9316d7, type: 3}
+  spawnPoint: {fileID: 746476410}
+  timeBetweenWaves: 5
 --- !u!1001 &1646992101
 PrefabInstance:
   m_ObjectHideFlags: 0
