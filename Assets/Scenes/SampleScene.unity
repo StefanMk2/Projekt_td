@@ -7553,7 +7553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6058219578142799898, guid: 10e36992c1b5baa47b5f48b79ffbf943, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -44.5
+      value: -44.97
       objectReference: {fileID: 0}
     - target: {fileID: 6058219578142799898, guid: 10e36992c1b5baa47b5f48b79ffbf943, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14249,7 +14249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da6b2d5feab3e9408c1023d71328aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  standardTurretPrefab: {fileID: 6533802817427626899, guid: 5a356832668574b4c900477b4ff327a1, type: 3}
+  standardTurretPrefab: {fileID: 2686001151350161141, guid: 7569b1c2db8329544bbea1ca29934cab, type: 3}
   anotherTurretPrefab: {fileID: 6533802817427626899, guid: 31396d5b66496fa44b9ed20862ac54de, type: 3}
 --- !u!1001 &1646992101
 PrefabInstance:
@@ -14924,6 +14924,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3276905924076644021, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
   m_PrefabInstance: {fileID: 5340057624910296846}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1725955097 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8695638380947525415, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
+  m_PrefabInstance: {fileID: 5340057624910296846}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1727419475
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18125,6 +18136,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4554841208078270531, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 1725955097}
+    - target: {fileID: 4554841208078270531, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
       propertyPath: m_Colors.m_PressedColor.b
       value: 0.6132076
       objectReference: {fileID: 0}
@@ -18175,6 +18190,18 @@ PrefabInstance:
     - target: {fileID: 4554841208078270531, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8695638380947525415, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8695638380947525415, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3bdf72469f2c1f043ba755b1267e8fa3, type: 3}
+    - target: {fileID: 8695638380947525415, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8695638380947525415, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
       propertyPath: m_UseSpriteMesh
