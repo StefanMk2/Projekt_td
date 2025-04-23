@@ -1974,9 +1974,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -587.03143}
-  m_SizeDelta: {x: 0, y: -1174.0629}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 177.32068}
+  m_SizeDelta: {x: 0, y: -812.274}
+  m_Pivot: {x: 0.48069558, y: -0.2183014}
 --- !u!114 &217007372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5662,6 +5662,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MissileLaunchertItem
       objectReference: {fileID: 0}
+    - target: {fileID: 2811397242787835221, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
+      propertyPath: m_PreferredWidth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811397242787835221, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
+      propertyPath: m_PreferredHeight
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3276905924076644021, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5785,6 +5793,10 @@ PrefabInstance:
     - target: {fileID: 4554841208078270531, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8695638380947525415, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
+      propertyPath: m_Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8695638380947525415, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
       propertyPath: m_Sprite
@@ -8127,8 +8139,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -115}
-  m_SizeDelta: {x: 239.3617, y: 230}
+  m_AnchoredPosition: {x: -2, y: -56.7946}
+  m_SizeDelta: {x: 113.6857, y: 113.5894}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &938502931
 MonoBehaviour:
@@ -8167,11 +8179,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 170
+    m_FontSize: 100
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 200
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -14258,7 +14270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   standardTurretPrefab: {fileID: 2686001151350161141, guid: 7569b1c2db8329544bbea1ca29934cab, type: 3}
-  missileLauncherPrefab: {fileID: 1463827801018197010, guid: ca1e8ca69e1c9a2439078927fe767823, type: 3}
+  missileLauncherPrefab: {fileID: 6231501153046935063, guid: ca1e8ca69e1c9a2439078927fe767823, type: 3}
 --- !u!1001 &1646992101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18058,6 +18070,14 @@ PrefabInstance:
     - target: {fileID: 62757865540370072, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
       propertyPath: m_Name
       value: StandardTurretItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811397242787835221, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
+      propertyPath: m_PreferredWidth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811397242787835221, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
+      propertyPath: m_PreferredHeight
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3276905924076644021, guid: bcc2828dc3b0faa4897a5eb7cd4259bf, type: 3}
       propertyPath: m_Pivot.x
