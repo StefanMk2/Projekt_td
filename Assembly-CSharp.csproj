@@ -69,14 +69,14 @@
     <Compile Include="Assets\script\droga.cs" />
     <Compile Include="Assets\script\wróg.cs" />
     <Compile Include="Assets\script\Shop.cs" />
-    <Compile Include="Assets\script\node.cs" />
+    <Compile Include="Assets\script\PlayerStats.cs" />
+    <Compile Include="Assets\script\Node.cs" />
     <Compile Include="Assets\script\BuildManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\script\Bullet.cs" />
     <Compile Include="Assets\script\TurretBlueprint.cs" />
     <Compile Include="Assets\script\waveSpawner.cs" />
     <Compile Include="Assets\script\CameraController.cs" />
-    <Compile Include="Assets\PlayerStats.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -22,6 +22,7 @@ public class BuildManager : MonoBehaviour
     private TurretBlueprint turretToBuild;
 
     public bool CanBuild { get { return turretToBuild != null; } }
+    public bool HasMoney { get { return PlayerStats.Money >= turretToBuild.cost; } }
 
     public void BuildTurretOn (Node node)
     {
@@ -33,7 +34,7 @@ public class BuildManager : MonoBehaviour
 
         PlayerStats.Money -= turretToBuild.cost;
 
-       GameObject turret = (GameObject)Instantiate(turretToBuild.prefab, node.GetBuildPosition(), Quaternion.identity);
+       GameObject turret = Instantiate(turretToBuild.prefab, node.GetBuildPosition(), Quaternion.identity);
        node.turret = turret;
 
        Debug.Log("Wieża zakupiona. Pozostałe fundusze: " + PlayerStats.Money);
