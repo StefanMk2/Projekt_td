@@ -87,6 +87,8 @@ MonoBehaviour:
   useLaser: 1
   lineRenderer: {fileID: 2474902116374609155}
   impactEffect: {fileID: 7917121487173900791}
+  impactLight: {fileID: 2314010998442938845}
+  damageOverTime: 30
   enemyTag: Enemy
   partToRotate: {fileID: 5892929829541479137}
   turnSpeed: 10

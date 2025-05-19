@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7150261204208847458}
   - component: {fileID: 9032938043761664361}
   - component: {fileID: 6130057237975737837}
+  - component: {fileID: 2407489021620064994}
   m_Layer: 0
   m_Name: "wr\xF3g"
   m_TagString: Enemy
@@ -123,5 +124,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   health: 100
-  value: 50
+  worth: 50
   deathEffect: {fileID: 3277694401433691842, guid: 17d3c92b2d0248f48b7cbbdd8f4e9393, type: 3}
+--- !u!114 &2407489021620064994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897178051508777421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e00591cba5635f243adcc5463326c1af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
