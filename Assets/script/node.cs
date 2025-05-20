@@ -93,6 +93,17 @@ public class Node : MonoBehaviour
        Debug.Log("Wieża ulepszona. ");
     }
 
+    public void SellTurret()
+    {
+        PlayerStats.Money += turretBlueprint.GetSellAmount();
+
+        GameObject effect = (GameObject)Instantiate(buildManager.sellEffect, GetBuildPosition(), Quaternion.identity);
+        Destroy(effect, 5f);
+
+        Destroy(turret);
+        turretBlueprint = null;
+    }
+
     void OnMouseEnter ()
     {
                     Debug.Log("Kursor nad Nodem");
