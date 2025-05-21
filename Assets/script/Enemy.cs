@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class wróg : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
 
     public float startSpeed = 10f;

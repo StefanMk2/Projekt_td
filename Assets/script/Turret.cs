@@ -5,7 +5,7 @@ public class Turret : MonoBehaviour
 {
 
     private Transform target;
-    private wróg targetEnemy;
+    private Enemy targetEnemy;
 
     [Header("General")]
 
@@ -64,7 +64,7 @@ public class Turret : MonoBehaviour
         if (nearestEnemy != null && shortestDistance <= range)
         {
             target = nearestEnemy.transform;
-            targetEnemy = nearestEnemy.GetComponent<wróg>();
+            targetEnemy = nearestEnemy.GetComponent<Enemy>();
         } else 
         {
             target = null;
