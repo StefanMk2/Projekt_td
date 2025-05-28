@@ -6,9 +6,9 @@ public class EnemyMovement : MonoBehaviour
     private Transform target;
     private int wavepointIndex = 0;
     private Enemy enemy;
-    
+
     void Start()
-    {   
+    {
         enemy = GetComponent<Enemy>();
         if (enemy == null)
         {
@@ -61,8 +61,8 @@ public class EnemyMovement : MonoBehaviour
 
     void EndPath()
     {
-        // Directly modify PlayerStats (assuming it's a static class)
         PlayerStats.Lives--;
+        WaveSpawner.EnemiesAlive--;
         Destroy(gameObject);
     }
 }
