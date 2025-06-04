@@ -18175,10 +18175,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - rate: 2
+  - rate: 10
     enemies:
     - enemy: {fileID: 897178051508777421, guid: ce83e3e7956dd624aa9f43962b9316d7, type: 3}
-      count: 1
+      count: 5
   - rate: 4
     enemies:
     - enemy: {fileID: 897178051508777421, guid: ce83e3e7956dd624aa9f43962b9316d7, type: 3}
@@ -18215,6 +18215,26 @@ MonoBehaviour:
       count: 10
     - enemy: {fileID: 897178051508777421, guid: bc4990bcda072e14cb78ead0eb28af3f, type: 3}
       count: 3
+  - rate: 4
+    enemies:
+    - enemy: {fileID: 897178051508777421, guid: bc4990bcda072e14cb78ead0eb28af3f, type: 3}
+      count: 10
+    - enemy: {fileID: 897178051508777421, guid: 571c9bec20a9bba468c2c8032f143594, type: 3}
+      count: 10
+    - enemy: {fileID: 897178051508777421, guid: ce83e3e7956dd624aa9f43962b9316d7, type: 3}
+      count: 10
+    - enemy: {fileID: 897178051508777421, guid: bc4990bcda072e14cb78ead0eb28af3f, type: 3}
+      count: 5
+  - rate: 6
+    enemies:
+    - enemy: {fileID: 897178051508777421, guid: 571c9bec20a9bba468c2c8032f143594, type: 3}
+      count: 30
+    - enemy: {fileID: 897178051508777421, guid: ce83e3e7956dd624aa9f43962b9316d7, type: 3}
+      count: 10
+    - enemy: {fileID: 897178051508777421, guid: bc4990bcda072e14cb78ead0eb28af3f, type: 3}
+      count: 3
+    - enemy: {fileID: 897178051508777421, guid: 8e63b0aec12d0c447a9e237459f49a1c, type: 3}
+      count: 1
   spawnPoint: {fileID: 746476410}
   timeBetweenWaves: 2
   waveCountdownText: {fileID: 93420250}

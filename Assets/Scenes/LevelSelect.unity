@@ -1397,6 +1397,10 @@ PrefabInstance:
       value: LevelButton (2)
       objectReference: {fileID: 0}
     - target: {fileID: 7481414239476343307, guid: ddc72d665fba8164392b9da0930b17eb, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481414239476343307, guid: ddc72d665fba8164392b9da0930b17eb, type: 3}
       propertyPath: m_Colors.m_DisabledColor.a
       value: 0.62352943
       objectReference: {fileID: 0}
@@ -1790,6 +1794,10 @@ PrefabInstance:
     - target: {fileID: 7252705061643990182, guid: ddc72d665fba8164392b9da0930b17eb, type: 3}
       propertyPath: m_Name
       value: LevelButton (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481414239476343307, guid: ddc72d665fba8164392b9da0930b17eb, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7481414239476343307, guid: ddc72d665fba8164392b9da0930b17eb, type: 3}
       propertyPath: m_Colors.m_DisabledColor.a
